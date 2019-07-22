@@ -5,9 +5,9 @@ namespace DebugMsgSupport
     static class DebugMsg 
     {
         /// <summary>
-        /// エラーとかログとか出す奴
+        /// Display Error, Log, Warning.
         /// </summary>
-        /// <param name="str">表示する文章</param>
+        /// <param name="str">Display Message</param>
         /// <param name="num">Error,Log,Warning</param>
         public static void Text(string str, MessageType num)
         {
