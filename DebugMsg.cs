@@ -9,7 +9,7 @@ namespace DebugMsgSupport
         /// </summary>
         /// <param name="str">Display Message</param>
         /// <param name="num">Error,Log,Warning</param>
-        public static void Text(string str, MessageType num)
+        public static void Text(string str, MessageType num = MessageType.Log)
         {
             var message = GetPrefix((int)num);
 
