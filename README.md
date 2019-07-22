@@ -1,5 +1,5 @@
 # UnityDebugMsgSupport
-====
+
 ## Overview
 This code is for convenient use of Unity debug messages.
 
